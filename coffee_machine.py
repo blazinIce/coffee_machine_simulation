@@ -108,7 +108,7 @@ def take_money():
 message = "Please wait..."
 serving = True
 while serving:
-    prompt = input('What would you like? (espresso/latte/cappuccino) > ')
+    prompt = input('What drink would you like? (espresso/latte/cappuccino) > ')
     if prompt.lower() == 'off':
         turn_off()
         break
